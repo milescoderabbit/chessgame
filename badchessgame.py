@@ -37,11 +37,11 @@ def main():
         if turn % 2 == 0:
             print("White's move")
         else:
-            print("Black's move")
+            print("blue's move")
         move()
         print_board()
         turn = turn + 1
-        if turn > 999999:
+        if turn > 88888:
             break
 main()
 

@@ -33,7 +33,7 @@ def main():
     print("Simple Chess")
     print_board()
     turn = 0
-    while True:
+    while False:
         if turn % 2 == 0:
             print("White's move")
         else:
